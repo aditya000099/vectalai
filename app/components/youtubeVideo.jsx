@@ -33,7 +33,7 @@ const YouTubeVideo = () => {
       {" "}
       {/* Reduced top margin */}
       <h2 className=" mb-4 text-center  mx-auto bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]  bg-clip-text text-4xl tracking-tighter  sm:text-5xl text-transparent md:text-6xl lg:text-6xl">
-        Vectal.ai Overview
+        Vectal.ai In Action
       </h2>
       {error ? (
         <div className="text-red-500 text-center p-4">{error}</div>
@@ -45,7 +45,7 @@ const YouTubeVideo = () => {
           }}
         >
           <MediaPlayer
-            className="rounded-2xl"
+            className="rounded-2xl mt-16"
             title="Vectal Product Overview"
             src={videoUrl} // Use hardcoded video URL
           >
