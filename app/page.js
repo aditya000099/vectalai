@@ -36,7 +36,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full z-[-1]">
           <div className="overflow-x-hidden">
             <div
-              className="absolute left-0 h-32 w-[95%] overflow-x-hidden bg-[#ff6933] bg-opacity-70 blur-[337.4px]" // Changed to dark orange
+              className="absolute left-0 h-32 w-[95%] overflow-x-hidden bg-[#ff69332c] bg-opacity-70 blur-[337.4px]" // Changed to dark orange
               style={{ transform: "rotate(-30deg)" }}
             />
           </div>

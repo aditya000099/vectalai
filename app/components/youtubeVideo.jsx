@@ -54,10 +54,6 @@ const YouTubeVideo = () => {
           </MediaPlayer>
         </div>
       )}
-      <div
-        className="absolute -z-10 left-0 top-[10%] h-32 w-[90%] overflow-x-hidden bg-[rgb(54,157,253)] bg-opacity-100  blur-[337.4px]"
-        style={{ transform: "rotate(-30deg)" }}
-      />
     </div>
   );
 };
