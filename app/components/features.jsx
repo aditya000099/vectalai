@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+import { FeaturesSection } from "./elements/featuresCard";
 
 export default function Features() {
   const [tab, setTab] = useState(0);
@@ -62,6 +63,7 @@ export default function Features() {
                     </div>
                   </Link>
                 </div>
+                <FeaturesSection />
                 <div className="overflow-x-hidden overflow-y-hidden">
                   <div
                     className="absolute left-0 top-[60%] h-32 w-[90%] overflow-x-hidden bg-[rgb(217,75,56)] bg-opacity-20  blur-[337.4px]"
