@@ -4,6 +4,7 @@ import BackgroundPlus from "./components/GridPattern";
 import CombinedNavbar from "./components/Headers/header";
 import YouTubeVideo from "./components/youtubeVideo";
 import { Spotlight } from "@/components/ui/spotlight-new";
+import Features from "./components/features";
 
 const slap = {
   initial: {
@@ -45,6 +46,7 @@ export default function Home() {
         <div className="w-[45rem] h-full">
           <YouTubeVideo />
         </div>
+        <Features />
       </main>
     </>
   );

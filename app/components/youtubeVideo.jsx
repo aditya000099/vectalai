@@ -29,7 +29,7 @@ const YouTubeVideo = () => {
   };
 
   return (
-    <div className="mt-64 w-full">
+    <div className="mt-64 w-full min-h-screen">
       {" "}
       {/* Reduced top margin */}
       <h2 className=" mb-4 text-center  mx-auto bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]  bg-clip-text text-4xl tracking-tighter  sm:text-5xl text-transparent md:text-6xl lg:text-6xl">
