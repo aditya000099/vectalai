@@ -113,22 +113,12 @@ const CombinedNavbar = () => {
               Features
             </Link>
           </Tab>
-          <Tab setPosition={setPosition}>
-            <Link
-              className="w-full h-full"
-              href={
-                "https://github.com/Dhravya/supermemory/graphs/contributors"
-              }
-            >
-              Team
-            </Link>
-          </Tab>
 
           <Link
-            href="https://git.new/memory"
+            href="https://www.youtube.com/watch?v=bNlGhOuQ8ls"
             className="inline-flex gap-x-2 justify-start items-start py-3 px-5 ml-3 w-full rounded-3xl border duration-200 sm:w-auto group bg-page-gradient border-white/30 text-md font-geistSans hover:border-zinc-600 hover:bg-transparent/10 hover:text-zinc-100"
           >
-            Github
+            Youtube
             <div className="flex overflow-hidden relative justify-center items-center ml-1 w-5 h-5">
               <ArrowUpRight className="absolute transition-all duration-500 group-hover:translate-x-4 group-hover:-translate-y-5" />
               <ArrowUpRight className="absolute transition-all duration-500 -translate-x-4 -translate-y-5 group-hover:translate-x-0 group-hover:translate-y-0" />
