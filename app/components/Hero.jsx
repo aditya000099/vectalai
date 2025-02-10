@@ -26,7 +26,7 @@ export default function Hero() {
           ...slap,
           transition: { ...slap.transition, delay: 0.2 },
         }}
-        className="text-center  mx-auto bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]  bg-clip-text text-4xl tracking-tighter  sm:text-5xl text-transparent md:text-6xl lg:text-7xl"
+        className="text-center mt-20  mx-auto bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]  bg-clip-text text-4xl tracking-tighter  sm:text-5xl text-transparent md:text-6xl lg:text-7xl"
       >
         Unlock Your{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-300 from-zinc-300">
@@ -55,7 +55,7 @@ export default function Hero() {
           <ArrowUpRight className="absolute transition-all duration-500 -translate-x-4 -translate-y-5 group-hover:translate-x-0 group-hover:translate-y-0" />
         </div>
       </Link>
-      <a
+      {/* <a
         href="https://www.producthunt.com/posts/supermemory?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-supermemory"
         target="_blank"
       >
@@ -66,7 +66,7 @@ export default function Hero() {
           width="250"
           height="54"
         />
-      </a>
+      </a> */}
     </section>
   );
 }
